@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Encriptador snow_aes</title>
+  <link rel="stylesheet" href="snow_aes/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Red Rose' rel='stylesheet'>
+</head>
+
+<body>
+  <script src='snow_aes/snow_aes.js'></script>
+  <div class="btn">
+      <button id="b1" class="b1" type="button" onclick="generar()">
+        <p>GENERAR</p>
+      </button>
+  </div>
+
+  <div class="datos">
+    <form>
+      <p>
+      Primer byte: <input id="primer" type="text"/>
+      <br>
+      Segundo byte: <input id="segundo" type="text"/>
+      <br>
+      Algoritmo: <input id="algoritmo" type="text"/>
+      <br>
+      <br>
+      </p>
+    </form>
+  </div>
+
+  <div id="salidas" class="salidas">
+    <h4> 
+    Salida:
+    </h4>
+    <h4>
+      Primer Byte:
+      <h5 id="primerB"></h5>
+    </h4>
+    <h4>
+      Segundo Byte:
+      <h5 id="segundoB"></h5>
+    </h4>
+    <h4>
+      Byte Algoritmo:
+      <h5 id="algoritB"></h5>
+    </h4>
+    <h4>
+      Multiplicación:
+      <h5 id="multipB"></h5>
+    </h4>
+  </form>
+</div>
+
+</body>
+
+
+</html>
