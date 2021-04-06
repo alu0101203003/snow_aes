@@ -48,6 +48,24 @@ p{
     opacity: 1;
 }
 
+#primer {
+    font-family: 'Red Rose';
+    font-size: 25px;
+    color: #000000;
+}
+
+#segundo {
+    font-family: 'Red Rose';
+    font-size: 25px;
+    color: #000000;
+}
+
+#algoritmo {
+    font-family: 'Red Rose';
+    font-size: 25px;
+    color: #000000;
+}
+
 h4 {
     font-family: 'Red Rose';
     color: #4d65b3;
